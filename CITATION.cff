@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this public research index, cite the versioned research dataset and consult the canonical GAH articles for current reporting and corrections."
+title: "Grok Archive Hub Public Research Index: Source-Linked Investigation and News Catalog"
+type: dataset
+version: 1.0.0
+authors:
+  - name: "Grok Archive Hub"
+abstract: "Versioned public research metadata for 12 investigations and 3 news briefs with provenance links, machine-readable catalogs, source limitations, and methodology. No restricted or underlying evidence files are deposited."
+license: CC-BY-4.0
+url: "https://grokarchivehub.com/research-index"
+repository-code: "https://github.com/danespec/grokarchivehub-research"
+keywords:
+  - public records
+  - investigative journalism
+  - Jeffrey Epstein
+  - research index
+  - primary sources
+  - United States Department of Justice
+  - FBI records
+  - metadata

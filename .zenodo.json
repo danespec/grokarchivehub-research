@@ -1,0 +1,26 @@
+{
+  "creators": [
+    {
+      "name": "Grok Archive Hub"
+    }
+  ],
+  "title": "Grok Archive Hub Public Research Index: Source-Linked Investigation and News Catalog",
+  "description": "<p>Versioned public research-discovery metadata for 12 published investigations and 3 news briefs from Grok Archive Hub, assembled October 12, 2026. Includes a machine-readable CSV/JSON index, nine links to public source manifests, original-record links when available, methodological guidance, and explicit evidence limitations. GAH remains the canonical publisher. No private source documents or unpublished evidence are included in this deposit.</p><p>Canonical research index: <a href='https://grokarchivehub.com/research-index'>https://grokarchivehub.com/research-index</a>. Corrections: <a href='https://grokarchivehub.com/corrections'>https://grokarchivehub.com/corrections</a>.</p><p>This publication is an index of public URLs and editorial metadata, not a deposit of underlying agency records, personal correspondence, source PDFs, or evidence attachments. Attribution to GAH does not convey rights over third-party source material.</p>",
+  "upload_type": "dataset",
+  "version": "1.0.0",
+  "publication_date": "2026-10-12",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "Grok Archive Hub",
+    "public records",
+    "investigative journalism",
+    "Jeffrey Epstein",
+    "DOJ",
+    "FBI",
+    "source provenance",
+    "research metadata"
+  ],
+  "language": "eng",
+  "notes": "The CC BY 4.0 license applies to GAH-authored catalog entries, summaries, and repository documentation. Linked third-party materials are not included and retain their own rights. Always consult current canonical articles for updates and corrections."
+}
