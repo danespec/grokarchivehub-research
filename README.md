@@ -33,6 +33,13 @@ Visit [GAH News Desk](https://grokarchivehub.com/news). The current launch brief
 - **[Machine-readable catalog](data/public-source-index.csv)** — CSV; a [JSON index](data/public-source-index.json) and [JSON Schema](data/source-manifest-schema.json) are also available.
 - **[Corrections and source safety](CORRECTIONS.md)** — how to submit corrections responsibly.
 
+## Versioned archival citation (Zenodo)
+
+- **Version 1.0.0 (October 12, 2026):** [DOI 10.5281/zenodo.23325820](https://doi.org/10.5281/zenodo.23325820) — immutable archived snapshot of the public metadata catalog.
+- **All versions:** [DOI 10.5281/zenodo.23325819](https://doi.org/10.5281/zenodo.23325819) — version-independent concept DOI.
+
+Cite the version-specific DOI for reproducibility. GAH's canonical articles remain authoritative for editorial updates and corrections; the DOI covers this source-linked research index, not the underlying third-party records.
+
 ## Coverage and maintenance
 
 This is a **curated initial selection of 12 investigations and 3 news briefs**, not a count of all GAH publications or underlying files. Metadata and links were checked against public article pages on 2026-10-12. Additional records will be added only after editorial and privacy review.

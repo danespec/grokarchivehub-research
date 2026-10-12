@@ -3,6 +3,7 @@ message: "If you use this public research index, cite the versioned research dat
 title: "Grok Archive Hub Public Research Index: Source-Linked Investigation and News Catalog"
 type: dataset
 version: 1.0.0
+doi: 10.5281/zenodo.23325820
 authors:
   - name: "Grok Archive Hub"
 abstract: "Versioned public research metadata for 12 investigations and 3 news briefs with provenance links, machine-readable catalogs, source limitations, and methodology. No restricted or underlying evidence files are deposited."
