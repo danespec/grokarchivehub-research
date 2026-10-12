@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/danespec/grokarchivehub-research/blob/main/data/source-manifest-schema.json",
+  "$id": "https://raw.githubusercontent.com/danespec/grokarchivehub-research/main/data/source-manifest-schema.json",
   "title": "GAH public research discovery catalog",
   "description": "Schema for the curated public-source-index.json catalog; does not authorize publication of underlying evidence.",
   "type": "object",
