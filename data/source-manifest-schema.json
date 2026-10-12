@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/danespec/grokarchivehub-research/blob/main/data/source-manifest-schema.json",
+  "title": "GAH public research discovery catalog",
+  "description": "Schema for the curated public-source-index.json catalog; does not authorize publication of underlying evidence.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "generated_date",
+    "publisher",
+    "canonical_website",
+    "entries"
+  ],
+  "properties": {
+    "schema": {
+      "const": "gah.public-research-index.v1"
+    },
+    "generated_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "publisher": {
+      "const": "Grok Archive Hub"
+    },
+    "canonical_website": {
+      "const": "https://grokarchivehub.com"
+    },
+    "entries": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "type",
+          "category",
+          "title",
+          "published",
+          "modified",
+          "summary",
+          "publication_url",
+          "source_manifest_url",
+          "primary_source_url",
+          "evidence_boundary"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "string"
+          },
+          "type": {
+            "type": "string",
+            "format": "string"
+          },
+          "category": {
+            "type": "string",
+            "format": "string"
+          },
+          "title": {
+            "type": "string",
+            "format": "string"
+          },
+          "published": {
+            "type": "string",
+            "format": "date"
+          },
+          "modified": {
+            "type": "string",
+            "format": "date"
+          },
+          "summary": {
+            "type": "string",
+            "format": "string"
+          },
+          "publication_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "source_manifest_url": {
+            "type": "string",
+            "description": "Publicly accessible URL or empty when absent; blank must not be interpreted as lack of sources."
+          },
+          "primary_source_url": {
+            "type": "string",
+            "description": "Publicly accessible URL or empty when absent; blank must not be interpreted as lack of sources."
+          },
+          "evidence_boundary": {
+            "type": "string",
+            "format": "string"
+          }
+        }
+      }
+    }
+  }
+}
